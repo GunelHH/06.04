@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.all .picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.all .about {
+  width: 38%;
+}
+.all#picture-1 {
+  display: inline-block;
+  width: 30%;
+}
+.all#picture-2 {
+  display: inline-block;
+  width: 30%;
+}
+.all#picture-3 {
+  display: inline-block;
+  width: 30%;
+}
+.all {
+  margin-left: 20px;
+  margin-top: 70px;
+}
+.all .about .about-body {
+  width: 400px;
+  margin-top: 20px;
+}
+.all .about .about-head,
+.downloads,
+.about-body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.all .about .about-head {
+  color: rgb(74, 99, 147);
+}
+.all .about .about-body,
+.all .about .downloads {
+  color: rgb(144, 144, 144);
+}
+.all .icons .icon-1 button,
+.all .icons .icon-2 button {
+  background-color: rgb(71, 98, 146);
+  color: rgb(203, 209, 213);
+  margin-top: 12px;
+}
+.all .icons .icon-3 button {
+  background-color: rgb(83, 137, 3);
+  color: rgb(203, 209, 213);
+  margin-top: 12px;
+}
